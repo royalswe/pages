@@ -1,0 +1,1 @@
+const n=!1;async function l({params:e,url:o}){const t={room:e.slug},s=o.searchParams.get("board");return s&&(t.width=+(s==null?void 0:s.split(":")[0]),t.height=+(s==null?void 0:s.split(":")[1])),t}const r=Object.freeze(Object.defineProperty({__proto__:null,ssr:!1,load:l},Symbol.toStringTag,{value:"Module"}));export{r as _,l,n as s};
